@@ -1,0 +1,112 @@
+/* 
+Creating the color for both the header and the footer
+*/
+header,footer {
+  text-align: center;
+  min-width: 500px;
+  font-size: 40px;
+  /* 
+Making the text white
+*/
+  color: white;
+
+  /* 
+Setting the header background color to black
+*/
+  background-color: black;
+}
+
+html {
+
+  /* 
+Setting the background of the whole page to white
+*/
+   background-color: white;
+}
+
+.store {
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 400px;
+  max-height: 500px;
+  margin: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  row-gap: auto;
+  column-gap: auto;
+  background-color: black;
+  min-width: 500px;
+  justify-content: flex-start;
+  justify-content:center;
+}
+
+.grid-item {
+
+  /* 
+Setting the grid boxes in which the games, description, and price are in to custom colors such as black and gray.
+*/
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  
+}
+
+footer {
+
+  /* 
+Customized the footer text and how it is positioned on the screen
+*/
+  text-align: center;
+  font-size: 20px;
+}
+
+button {
+
+  /* 
+Setting the position of the button on the screen on the bottom and in the middle
+*/
+  align-self: center;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+}
+total {
+  text-align: center;
+}
+
+.text {
+
+  /* 
+Setting the font of text throughout the whole code to be a certain height and width
+*/
+    min-width: 300px;
+  min-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
+  text-align: center;
+}
+
+.div {
+  margin: 5px;
+}
